@@ -1,0 +1,26 @@
+<h1 style="color:#007bff ; text-align: center; font-weight: bold;">{{componentName}}</h1>
+<div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 " bis_skin_checked="1" style="justify-content:center;">
+   
+    <form style="width: 23rem;">
+
+      <div class="form-outline mb-4" bis_skin_checked="1">
+        <input type="email" id="form2Example18" class="form-control form-control-lg">
+        <label class="form-label" for="form2Example18" style="margin-left: 0px;">Email address</label>
+      <div class="form-notch" bis_skin_checked="1"><div class="form-notch-leading" style="width: 9px;" bis_skin_checked="1"></div><div class="form-notch-middle" style="width: 88.8px;" bis_skin_checked="1"></div><div class="form-notch-trailing" bis_skin_checked="1"></div></div></div>
+
+      <div class="form-outline mb-4" bis_skin_checked="1">
+        <input type="password" id="form2Example28" class="form-control form-control-lg" (blur)="sortir()">
+        <label class="form-label" for="form2Example28" style="margin-left: 0px;" >Password</label>
+      <div class="form-notch" bis_skin_checked="1"><div class="form-notch-leading" style="width: 9px;" bis_skin_checked="1"></div><div class="form-notch-middle" style="width: 64px;" bis_skin_checked="1"></div><div class="form-notch-trailing" bis_skin_checked="1"></div></div></div>
+
+      <div class="pt-1 mb-4" bis_skin_checked="1">
+        <button type="submit" class="btn btn-primary btn-block mb-4" (click)="login()" [disabled]="isNotValid">Login</button> 
+       
+      </div>
+
+      <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
+      <p>Don't have an account? <a href="#!" class="link-info">Register here</a></p>
+
+    </form>
+
+  </div>
